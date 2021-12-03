@@ -1,0 +1,74 @@
+#gif{
+    width:150px;
+
+}
+#heading{
+    background-color:orange;
+    margin-top:0px;
+    font-size: 60px;
+    color:rgb(0, 10, 99);
+    animation: heading_color 5s infinite;
+    width:60%;
+}
+
+@keyframes heading_color{
+from{
+    color:rgb(13, 32, 202)
+}
+to{
+    color: black;
+}
+}
+
+.body_class{
+    background-image: url("b.jpg");
+   
+    background-size: cover;
+}
+.rules{
+    
+    background-color: #E4D8DC;
+    font-size: 20px;
+    width:70%;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-style: ridge;
+    border-width:3px;
+    border-color: rgb(231, 115, 20);
+    box-shadow: 6px 6px 6px 6px grey;
+    border-radius: 10px;
+    
+}
+
+#btn{
+    width:150px;
+    margin-top: 30px;
+    height: 50px;
+}
+
+
+canvas{
+    margin-top: 300px;
+    border-color: azure;
+    border-width: 5px;
+    border-style: ridge;
+    box-shadow:5px 5px 10pX white;
+    animation: canvas_bordercolor 5s infinite;
+}
+
+@keyframes canvas_bordercolor {
+    from{
+        box-shadow:5px 5px 10pX white;
+    }
+    to{
+        box-shadow: 5px 5px 10px rgb(3, 3, 255);
+    }
+}
+#footer{
+    color:white;
+    background-color: teal;
+    font-size:25px;
+    position:fixed;
+    bottom:0;
+    width:100%
+}
